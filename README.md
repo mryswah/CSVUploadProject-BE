@@ -13,23 +13,28 @@ https://github.com/mryswah/CSVUploadProject-FE
 ## Project Setup :
 1. Clone this repository :
 	```bash
-		git clone https://github.com/mryswah/CSVUploadProject-BE.git
-		cd CSVUploadProject-BE
+	git clone https://github.com/mryswah/CSVUploadProject-BE.git
+	cd CSVUploadProject-BE
 	```
 2. Install Dependencies :
-   **npm install**
+   <br>**npm install**
    
 3. Start the Server :
-   npm start
+   <br>**npm start**
 
 5. Server running at :
-   **http://localhost:3000**
+   <br>**http://localhost:3000**
    
 6. Do the same for the Frontend Repository
 
 ## Endpoints for Postman : 
-   http://localhost:3000/api/upload
-   http://localhost:3000/api/search?query=
+| End Points|Screenshot
+|----------------------------------------|-------------------------------|
+| http://localhost:3000/api/upload       |![image](screenshots/upload.JPG)|
+|http://localhost:3000/api/search?query= |![image](screenshots/search.JPG)|
    
 ## Testing : 
-Execute test: **npm run test:ui** or **npm t** (if you do not want to use vitest ui)
+Execute test: 
+<br>**npm run test:ui** 
+<br>or
+<br>**npm t** (if you do not want to use vitest ui)
